@@ -1,0 +1,33 @@
+# based on 6/23/2023 dump of Google
+
+# this yaml file does the best to showcase all the features of routinejs
+
+version: 0.0.1-alpha
+
+meta:
+  git: none
+  maintainer: JIBSIL
+  url: https://google.com
+  contact-telegram: 
+  contact-discord: 
+  contact-email: 
+
+# this is where website elements go
+# it is not necessary to put all the elements, just ones that are needed for the routine
+
+# xpath, id or HTML attributes can be provided
+# types: button, input
+
+# order: attributes then xpath then id
+
+components:
+  query:
+    type: input
+    id: APjFqb
+    xpath: /html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/textarea
+    attributes:
+      title: Search
+  search:
+    type: button
+    attributes:
+      value: Google Search

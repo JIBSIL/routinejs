@@ -1,0 +1,12 @@
+import dom "Google" from "../test-doms/Google.yaml"
+
+use dom "Google"
+
+input "Test" into query
+sleep 1 second
+clear query
+sleep 1 second
+type "Goooogle" into query
+sleep 1 second
+click on search
+# click search

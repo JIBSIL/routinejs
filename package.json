@@ -1,0 +1,13 @@
+{
+  "name": "routinejs",
+  "version": "1.0.0",
+  "description": "A library to create routines from raw HTML DOM data",
+  "main": "index.js",
+  "author": "JIBSIL <40243545+JIBSIL@users.noreply.github.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "playwright": "^1.35.1"
+  }
+}
